@@ -1,7 +1,8 @@
-# HMM_PySpark
-Implementation of the Viterbi algorithm (EM) for the estimation of parameters of Hidden Markov Model in a distributed fashion (using PySpark).
+## Hidden Markov Model: Map-Reduce implementation of the Baum-Welch algorithm (EM) 
 
-Implementation of the transition matrix and emission matrix estimation (Viterbi algorithm) algorithm from the book: [Data-Intensive Text Processing
+Implementation of the Baum-Welch algorithm (EM) for the estimation of parameters of Hidden Markov Model in a distributed fashion (using PySpark).
+
+Implementation of the transition matrix and emission matrix estimation (forward-backward algorithm) algorithm from the book: [Data-Intensive Text Processing
 with MapReduce][1](Jimmy Lin and Chris Dyer). It is a map-reduce based approach. Two distinct implementations are provided: one only using python built-in packages and replicating the book pseudo-code and one using the NumPy libraby and some optimizations.
 See the report for a detailed description.
 
